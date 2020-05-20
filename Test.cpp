@@ -91,10 +91,7 @@ CHECK(solve(6*x -7 == 29) == 6);
     CHECK(abs(solve(x / 9 + 8 == 13) - 45) < EPS);
     CHECK((abs(solve((x ^ 2) == 81) - 9) < EPS || abs(solve((x ^ 2) == 81) + 9) < EPS));
     CHECK((abs(solve(12 * (x ^ 2) - 12 == 0) - 1) < EPS || abs(solve(12 * (x ^ 2) - 12 == 0) + 1) < EPS)); }
-    CHECK((abs(solve((x ^ 2) == 2) - 1.41421) < EPS || abs(solve((x ^ 2) == 2) 1.41421) < EPS));
-    CHECK((abs(solve((x ^ 2) == 3) - 1.73205) < EPS || abs(solve((x ^ 2) == 3) + 1.73205) < EPS));
-    CHECK((abs(solve((x ^ 2) == 5) - 2.23607) < EPS || abs(solve((x ^ 2) == 5) +2.23607) < EPS));
-
+  
 
 
    TEST_CASE("test complex numbers Operator +  -"){
